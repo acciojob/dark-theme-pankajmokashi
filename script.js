@@ -14,5 +14,13 @@ function swapTheme() {
 	{
 		div.className = "day"
 	}
+	if(button.className == "button_day")
+	{
+		button.className = "button_night"
+	}
+	else
+	{
+		button.className = "button_day"
+	}
 }
 button.addEventListener("click", swapTheme)
